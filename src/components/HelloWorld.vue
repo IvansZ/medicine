@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <h1>{{ msg }}
+    <p>3232323</p></h1>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
       check out the
@@ -44,6 +45,11 @@ export default class HelloWorld extends Vue {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+h1{
+  p{
+    color:red;
+  }
+}
 h3 {
   margin: 40px 0 0;
 }
