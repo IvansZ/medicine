@@ -1,0 +1,123 @@
+$themecolor:#00afb1;
+$color:#fff;
+$header_left :0.3rem;
+$bgColor:#f2f0f1;
+$content_bgColor:#fff;
+$public_pd:0.1rem;
+$grey_p:#b8b8b8;
+$danger_color:red;
+$font-weight-small:300;
+$warning_color:#fea82e;
+$black_p:#000;
+@mixin text_center{
+    text-align: center
+}
+@mixin box_shadow {
+    box-shadow: 1px 1px 1px 1px #888888;
+}
+
+@mixin flex-card {
+    display: flex;
+}
+@mixin justify-content-start {
+    justify-content: flex-start !important
+}
+
+@mixin justify-content-end {
+    justify-content: flex-end !important
+}
+
+@mixin justify-content-center {
+    justify-content: center !important
+}
+
+@mixin justify-content-between {
+    justify-content: space-between !important
+}
+
+@mixin justify-content-around {
+    justify-content: space-around !important
+}
+
+@mixin align-items-start {
+    align-items: flex-start !important
+}
+
+@mixin align-items-end {
+    align-items: flex-end !important
+}
+
+@mixin align-items-center {
+    align-items: center !important
+}
+
+@mixin align-items-baseline {
+    align-items: baseline !important
+}
+
+@mixin align-items-stretch {
+    align-items: stretch !important
+}
+
+@mixin align-content-start {
+    align-content: flex-start !important
+}
+
+@mixin align-content-end {
+    align-content: flex-end !important
+}
+
+@mixin align-content-center {
+    align-content: center !important
+}
+
+@mixin align-content-between {
+    align-content: space-between !important
+}
+
+@mixin align-content-around {
+    align-content: space-around !important
+}
+
+@mixin align-content-stretch {
+    align-content: stretch !important
+}
+
+@mixin align-self-auto {
+    align-self: auto !important
+}
+@mixin align-self-start {
+    align-self: flex-start !important
+}
+
+@mixin align-self-end {
+    align-self: flex-end !important
+}
+
+@mixin align-self-center {
+    align-self: center !important
+}
+
+@mixin align-self-baseline {
+    align-self: baseline !important
+}
+
+@mixin align-self-stretch {
+    align-self: stretch !important
+}
+
+//公共样式全局定义
+.them_p{
+    color:$themecolor !important;
+}
+.danger_p{
+    color: $danger_color !important;
+}
+.bolder_bottom{
+    border-bottom: 1px solid $grey_p;
+}
+.black_p{
+    color:$black_p !important;
+    font-weight: bolder;
+    font-size: 0.14rem;
+}
